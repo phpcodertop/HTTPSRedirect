@@ -6,9 +6,21 @@
   "author": "Ahmed Halima",
   "action":{
     "default_popup": "index.html",
-    "default_title": "HTTPSRedirect"
+    "default_title": "HTTPSRedirect",
+    "default_icon": {
+      "16": "/images/icon16-16.png",
+      "32": "/images/icon16-16.png",
+      "48": "/images/icon48-48.png",
+      "128": "/images/icon128-128.png"
+    }
   },
   "permissions": [
     "tabs"
-  ]
+  ],
+  "icons": {
+    "16": "/images/icon16-16.png",
+    "32": "/images/icon16-16.png",
+    "48": "/images/icon48-48.png",
+    "128": "/images/icon128-128.png"
+  }
 }
