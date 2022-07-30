@@ -1,0 +1,14 @@
+{
+  "name": "HTTPSRedirect",
+  "version": "1.0.0",
+  "description": "Redirect any http page to https",
+  "manifest_version": 3,
+  "author": "Ahmed Halima",
+  "action":{
+    "default_popup": "index.html",
+    "default_title": "HTTPSRedirect"
+  },
+  "permissions": [
+    "tabs"
+  ]
+}

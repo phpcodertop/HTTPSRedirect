@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTTPSRedirect</title>
+    <meta charset="utf-8">
+    <style>
+        body{
+            width: 500px;
+        }
+        .container {
+            height: 64px;
+            position: relative;
+            border: 3px solid green;
+            background-color: darkgray;
+        }
+        .vertical-center {
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .redirectBtn {
+            font-weight: 600;
+            border: solid 2px black;
+            outline: 0;
+            padding: 1rem 4rem;
+            font-size: 1.5rem;
+            letter-spacing: .08rem;
+            background-color: white;
+            border-radius: .35rem;
+            cursor: pointer;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="vertical-center">
+        <button class="redirectBtn notExists" id="redirect">Redirect HTTP to HTTPS</button>
+        <button class="redirectBtn exists">The page already https.</button>
+    </div>
+</div>
+
+<script src="popup.js"></script>
+</body>
+</html>
